@@ -1,0 +1,14 @@
+{% if content %}
+    <div>
+        {% if content.main %}
+            <div>
+                {{ content.main }}
+            </div>
+        {% endif %}
+        {% if content.sidebar %}
+            <div>
+                {{ content.sidebar }}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}

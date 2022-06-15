@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: e0af1c39-d8b1-4d22-8371-f0a41f065447
+  bundle: simple
+  default_langcode: es
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Test
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_background_block:
+    -
+      value: white
+  field_formatted_body:
+    -
+      value: "<p>teststeststeststests</p>\r\n"
+      format: basic_html
+  field_title:
+    -
+      value: test

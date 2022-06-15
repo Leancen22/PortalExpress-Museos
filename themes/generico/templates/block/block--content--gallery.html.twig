@@ -1,0 +1,30 @@
+{% set title = content.field_title|field_value %}
+{% set subtitle = content.field_subtitle|field_value %}
+{% set medias = content.field_medias %}
+
+
+<section class="component-gallery">
+    <div class="page-container">
+      <h2 class="section__title"> {{title}} </h2> 
+      <div class="section__galeria">
+        <div class="owl-carousel owl-carousel-galeria" tabindex="0">
+            {{ medias }}
+        </div>
+      </div>
+    
+    </div>
+</section>
+
+{% set title = content.field_title|field_value %}
+{% set subtitle = content.field_subtitle|field_value %}
+{% set medias = content.field_medias %}
+
+<div{{ attributes.addClass('bloque-galeria', 'layout-grid-box') }}>
+    {{ title_prefix }}
+    {% if label %}
+        <h3{{ title_attributes }}>{{ title }}</h3>
+    {% endif %}
+    {{ title_suffix }}
+    {{ subtitle }}
+    {{ medias }}
+</div>

@@ -1,0 +1,12 @@
+name: 'Test'
+description: 'Test'
+type: module
+core_version_requirement: '^9'
+dependencies:
+  - "isa_field_storage: isa_field_storage"
+version: 1.0.0
+package: ISA
+
+default_content:
+    block_content:
+      - e0af1c39-d8b1-4d22-8371-f0a41f065447

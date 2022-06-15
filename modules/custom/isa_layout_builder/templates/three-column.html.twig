@@ -1,0 +1,19 @@
+{% if content %}
+    <div>
+        {% if content.first %}
+            <div>
+                {{ content.first }}
+            </div>
+        {% endif %}
+        {% if content.second %}
+            <div>
+                {{ content.second }}
+            </div>
+        {% endif %}
+        {% if content.third %}
+            <div>
+                {{ content.third }}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}
